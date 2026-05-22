@@ -58,7 +58,7 @@ export default function GallerySection() {
               key={index}
               className="relative h-64 rounded-lg overflow-hidden shadow-lg"
               variants={itemVariants}
-              whileHover={{ y: -10, shadow: '0 20px 40px rgba(0,0,0,0.2)' }}
+              whileHover={{ y: -10 }}
             >
               <motion.img
                 src={image}
